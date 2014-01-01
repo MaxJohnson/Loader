@@ -16,9 +16,6 @@ Pod::Spec.new do |s|
   s.osx.deployment_target = '10.8'
   s.source       = { :git => "https://github.com/MaxJohnson/Loader.git", :tag => "0.0.1" }
   s.source_files  = 'Loader.{h,m}','UIImage+BoxBlur.{h,m}'
-  s.subspec 'UIKit' do |ss|
-     ss.source_files = 'Loader'
-  end
   s.requires_arc = true
   s.framework    = 'UIKit'
 end
