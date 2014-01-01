@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/MaxJohnson/Loader"
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = { "Mehul Mistri" => "mehulgecg@gmail.com" }
-  s.platform     = :ios, '7.0'
+  s.platform     = :ios
   s.ios.deployment_target = '7.0'
   s.osx.deployment_target = '10.8'
   s.source       = { :git => "https://github.com/MaxJohnson/Loader.git", :tag => "0.0.1" }
