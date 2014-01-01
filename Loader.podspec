@@ -13,7 +13,6 @@ Pod::Spec.new do |s|
   s.platform     = :ios
   s.platform     = :ios, "7.0"
   s.ios.deployment_target = '7.0'
-  s.osx.deployment_target = '10.8'
   s.source       = { :git => "https://github.com/MaxJohnson/Loader.git", :tag => "0.0.1" }
   s.source_files  = 'Loader.{h,m}','UIImage+BoxBlur.{h,m}'
   s.requires_arc = true
