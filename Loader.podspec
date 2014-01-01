@@ -16,5 +16,5 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/MaxJohnson/Loader.git", :tag => "0.0.1" }
   s.source_files  = 'Loader.{h,m}','UIImage+BoxBlur.{h,m}'
   s.requires_arc = true
-  s.framework    = 'UIKit'
+  s.framework    = 'QuartzCore'
 end
